@@ -7,7 +7,7 @@ function App() {
       <div className="mx-auto bg-gray-800 min-h-screen w-full px-5 md:mx-auto md:max-w-[360px]">
 
         <header className="pt-12 pb-16 text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
+          <h1 className="text-3xl font-extrabold tracking-tight sm:text-5xl">
             ROBOX
           </h1>
         </header>
