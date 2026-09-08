@@ -4,7 +4,7 @@ function App() {
   return (
     <main className="min-h-screen bg-black text-white ">
 
-      <div className="mx-auto bg-gray-800 min-h-screen w-full px-5">
+      <div className="mx-auto bg-gray-800 min-h-screen w-full max-w-[375px] px-5">
 
         <header className="pt-12 pb-16 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
