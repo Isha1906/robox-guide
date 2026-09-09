@@ -1,5 +1,5 @@
-import CategoryCard from "./components/CategoryCard";
-import records from "./data/cardData";
+import CategoryCard from "../components/CategoryCard"
+import records from "../data/cardData";
 
 function Home() {
   return (
@@ -26,6 +26,7 @@ function Home() {
               title={record.title}
               description={record.description}
               color={record.color}
+              path={record.path}
             />
           ))}
         </div>

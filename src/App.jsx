@@ -1,5 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import RBXTools from "./pages/RBXTools/RBXTools";
 function App(){
   return(
       <BrowserRouter>

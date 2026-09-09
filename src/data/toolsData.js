@@ -16,12 +16,12 @@ const tools=[
     {
         title:"Accessories",
         color:"bg-yellow-300",
-        image:""
+        image:clothing
     },
     {
         title:"Animation",
         color:"bg-lime-300",
-        image:""
+        image:access
     }
 ]
 // CHARACTERS

@@ -1,8 +1,8 @@
 import { tools } from "../../data/toolsData"
 function RBXTools() {
     return (
-        <div>
-            <header>ROBOX Tools</header>
+        <div className="mx-auto bg-gray-800 min-h-screen w-full px-5 md:max-w-[360px]">
+            <header className="text-center font-bold text-3xl">ROBOX Tools</header>
             <section className="flex flex-col items-center justify-center text-[10px] font-semibold h-[100px] tracking-widest">
                 <h5>ADVERTISEMENT</h5>
                 <div>
@@ -16,7 +16,7 @@ function RBXTools() {
                     (
                         <div className="relative select-all">
                             <img src={tool.image} alt={tool.title}
-                                className="absolute z-10 h-40 left-1/2 -translate-x-1/2 -top-7 "></img>
+                                className="absolute z-10 h-40 left-1/2 -translate-x-1/2 -top-6 "></img>
                             <div
                                 key={tool.title}
                                 className={`${tool.color} 
@@ -29,7 +29,6 @@ function RBXTools() {
 
                             </div>
                         </div>
-
 
                     ))
                 }
