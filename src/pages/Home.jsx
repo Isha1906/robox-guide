@@ -19,7 +19,7 @@ function Home() {
       </section>
 
       <section>
-        <div className="grid grid-cols-1 gap-8">
+        <div className="flex flex-col gap-8 items-center">
           {records.map((record) => (
             <CategoryCard
               key={record.title}
