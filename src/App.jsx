@@ -1,5 +1,6 @@
 import CategoryCard from "./components/CategoryCard";
 import records from "./data/cardData";
+import RBXTools from "./pages/RBXTools/RBXTools";
 function App() {
   return (
     <main className="min-h-screen bg-black text-white ">
@@ -31,6 +32,7 @@ function App() {
             ))}
           </div>
         </section>
+        <RBXTools />
       </div>
 
     </main>
