@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function CategoryCard(props) {
     return (
         <div className={`relative h-40 rounded-[28px] ${props.color}`}>
@@ -10,7 +12,14 @@ function CategoryCard(props) {
                 {props.description}
             </p>
         </div>
-    )
+    );
+    if(props.title==="RBX Tools")
+    {
+        return(
+            <Link to="rbx-tools">{card}</Link>
+        );
+    }
+    return card;
 }
 
 export default CategoryCard
