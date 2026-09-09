@@ -20,8 +20,9 @@ function RBXTools() {
                             <div
                                 key={tool.title}
                                 className={`${tool.color} 
-                        
-                        font-semibold rounded-[30px] h-45 text-center p-6 pr-12 relative z-0`}>
+                                font-semibold rounded-[30px] 
+                                h-45 text-center p-6 pr-12 
+                                relative z-0`}>
                                 <h2 className="absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-xl font-bold text-white">
                                     {tool.title}
                                 </h2>
