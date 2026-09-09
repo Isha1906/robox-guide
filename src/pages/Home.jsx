@@ -24,8 +24,7 @@ function Home() {
             />
           ))}
         </div>
-      
-
+        <footer>DISCLAIMER</footer>
     </div>
   );
 }

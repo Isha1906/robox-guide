@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function CategoryCard(props) {
     return (
         <Link to={props.path}>
-            <div className={`relative h-40 w-70 rounded-[28px] ${props.color}`}>
+            <div className={`relative h-30 w-70 m-5 rounded-[28px] ${props.color}`}>
                 <div className={`absolute -top-7 left-1/2 -translate-x-1/2 rounded-full border border-white px-7 py-2 ${props.color}`}>
                     <h2 className="whitespace-nowrap text-xl font-bold">
                         {props.title}
