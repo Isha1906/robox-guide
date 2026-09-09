@@ -1,26 +1,27 @@
-import rbxsolo1 from "../assets/rbxsolo1.png";
+import clothing from "../assets/clothing.png";
+import access from "../assets/accessories.png";
 
 // RBX TOOLS
 const tools=[
     {
         title:"Clothing",
         color:"bg-pink-300",
-        image:rbxsolo1
+        image:clothing
     },
     {
         title:"Heads",
         color:"bg-red-300",
-        image:rbxsolo1
+        image:access
     },
     {
         title:"Accessories",
         color:"bg-yellow-300",
-        image:rbxsolo1
+        image:""
     },
     {
         title:"Animation",
         color:"bg-lime-300",
-        image:rbxsolo1
+        image:""
     }
 ]
 // CHARACTERS
