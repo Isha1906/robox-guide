@@ -1,5 +1,6 @@
 import clothing from "../assets/clothing.png";
-import access from "../assets/accessories.png";
+import head from "../assets/head.png";
+
 
 // RBX TOOLS
 const tools=[
@@ -11,7 +12,7 @@ const tools=[
     {
         title:"Heads",
         color:"bg-red-300",
-        image:access
+        image:head
     },
     {
         title:"Accessories",
@@ -21,7 +22,7 @@ const tools=[
     {
         title:"Animation",
         color:"bg-lime-300",
-        image:access
+        image:head
     }
 ]
 // CHARACTERS

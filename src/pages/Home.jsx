@@ -27,6 +27,7 @@ function Home() {
               description={record.description}
               color={record.color}
               path={record.path}
+              image={record.image}
             />
           ))}
         </div>

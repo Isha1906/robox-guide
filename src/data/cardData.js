@@ -1,9 +1,11 @@
+import rbx from "../assets/rbxlogo.png"
 const records=[
     {
         title:"RBX TOOLS",
         description:"Guide Free Skins & Emotes for RBX",
         color:"bg-pink-300",
-        path:"/rbx-tools"
+        path:"/rbx-tools",
+        image:rbx
     },
     {
         title:"CHARACTERS",
@@ -15,7 +17,8 @@ const records=[
         title:"FREE RBX",
         description:"Guide for Daily FREE RBX",
         color:"bg-blue-300",
-        path:""
+        path:"",
+        image:rbx
     },
     {
         title:"MAPS",

@@ -12,6 +12,8 @@ function CategoryCard(props) {
                 <p className="flex h-full items-center px-8 font-bold sm:text-2xl">
                     {props.description}
                 </p>
+                <img src={props.image} 
+                className="absolute z-10 h-28 left-[65%] -translate-x-[10%] top-6 "></img>
             </div>
         </Link>
     );
