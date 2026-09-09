@@ -10,7 +10,7 @@ function Ads() {
             <img
                 src={ad}
                 alt="Advertisement"
-                className="mt-2 h-[200px] w-full object-contain"
+                className="mt-2 h-[300px] object-contain"
             />
         </section>
     );
