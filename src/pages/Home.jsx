@@ -24,7 +24,7 @@ function Home() {
             />
           ))}
         </div>
-        <footer>DISCLAIMER</footer>
+        <footer className="text-center font-bold text-md underline">DISCLAIMER</footer>
     </div>
   );
 }

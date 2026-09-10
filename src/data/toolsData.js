@@ -1,6 +1,7 @@
 import clothing from "../assets/clothing.png";
 import head from "../assets/head.png";
-import char from "../assets/char.png";
+import char from "../assets/character.png";
+import mainchar from "../assets/mainchar.png";
 
 
 // RBX TOOLS
@@ -34,7 +35,7 @@ const charAvatar=[
         color:"bg-lime-300"
     },
     {
-        image:char,
+        image:mainchar,
         title:"Characters",
         color:"bg-teal-300"
     }
