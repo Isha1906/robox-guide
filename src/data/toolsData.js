@@ -28,7 +28,7 @@ const tools=[
         title:"Animation",
         color:"bg-lime-300",
         image:head,
-        path:"/rbs-tools/animations"
+        path:"/rbx-tools/animations"
     }
 ]
 // CHARACTERS

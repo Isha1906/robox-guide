@@ -1,24 +1,23 @@
-import { Link } from "react-router-dom"
-import { clothes } from "../../data/clothingData"
+import { heads } from "../../data/headsData"
 import AllAds from "../../components/AllAds"
-function Clothing() {
+function Heads() {
     return (
         <div className="pt-6 pb-8 md:max-w-[360px] mx-auto bg-gray-900 min-h-screen w-full px-5 md:max-w-[360px]">
             <header className="mb-10 text-center font-bold text-3xl">CLOTHING</header>
             <AllAds />
             <section className="grid grid-cols-2 items-center gap-5">
-                {clothes.map((clothe) => (
+                {heads.map((head) => (
                     <div
-                        key={clothe.title}
-                        className={`${clothe.color} relative h-40 
+                        key={head.title}
+                        className={`${head.color} relative h-40 
                         w-full rounded-[30px]`}>
                         <header className="absolute left-1/2 top-3 
                         -translate-x-1/2 whitespace-nowrap text-xl font-bold text-white">
-                            {clothe.title}
+                            {head.title}
                         </header>
 
-                        <img src={clothe.image} alt={clothe.title}
-                            className="absolute bottom-0 left-1/2 h-32 
+                        <img src={head.image} alt={head.title}
+                            className="absolute bottom-1 left-1/2 h-30
                             -translate-x-1/2 object-contain"/>
                     </div>
                 ))}
@@ -26,5 +25,4 @@ function Clothing() {
         </div>
     )
 }
-
-export default Clothing
+export default Heads

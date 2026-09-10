@@ -1,6 +1,6 @@
 import ad from "../assets/ad.png";
 
-function Ads() {
+function AllAds() {
     return (
         <section className="mb-20 flex flex-col items-center">
             <h5 className="text-[10px] font-semibold tracking-widest">
@@ -16,4 +16,4 @@ function Ads() {
     );
 }
 
-export default Ads;
+export default AllAds;

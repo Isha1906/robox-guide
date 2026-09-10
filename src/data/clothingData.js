@@ -205,4 +205,4 @@ const pants=[
     },
 ]
 
-export {clothes, sweatres, pants, tshirts, jackets}
+export {clothes, shirts, sweatres, pants, tshirts, jackets}

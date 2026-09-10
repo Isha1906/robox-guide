@@ -31,8 +31,8 @@ function Maps() {
                                 {item.title}
                             </h2>
 
-                            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-sm text-white">
-                                →
+                            <div className="flex h-7 w-13 items-center justify-center rounded-full bg-black text-sm text-white">
+                                open
                             </div>
 
                         </div>
