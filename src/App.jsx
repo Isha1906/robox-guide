@@ -5,6 +5,7 @@ import Characters from "./pages/Characters/Characters";
 import Disclaimer from "./components/Disclaimer";
 import FreeRBX from "./pages/FreeRBX/FreeRBX";
 import Maps from "./pages/Maps/Maps";
+import Clothing from "./pages/RBXTools/Clothing";
 function App(){
   return(
       <BrowserRouter>
@@ -17,6 +18,7 @@ function App(){
           <Route path="/disclaimer" element={<Disclaimer /> } />
           <Route path="/free-rbx" element={<FreeRBX />} />
           <Route path="/maps" element={<Maps />} />
+          <Route path="/rbx-tools/clothing" element={<Clothing />} />
         </Routes>
       </main>
     </BrowserRouter>

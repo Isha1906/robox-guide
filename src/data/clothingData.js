@@ -1,35 +1,44 @@
+import cl from "../assets/cl.png"
 const clothes=[
     {
-        image:"",
-        title:"Shirts"
+        image:cl,
+        title:"Shirts",
+        color:"bg-teal-300"
     },
     {
-        image:"",
-        title:"T-Shirts"
+        image:cl,
+        title:"T-Shirts",
+        color:"bg-yellow-300"
     },
     {
-        image:"",
-        title:"Sweaters"
+        image:cl,
+        title:"Sweaters",
+        color:"bg-green-300"
     },
     {
-        image:"",
-        title:"Jackets"
+        image:cl,
+        title:"Jackets",
+        color:"bg-red-300"
     },
     {
-        image:"",
-        title:"Pants"
+        image:cl,
+        title:"Pants",
+        color:"bg-slate-400"
     },
     {
-        image:"",
-        title:"Dresses"
+        image:cl,
+        title:"Dresses",
+        color:"bg-blue-300"
     },
     {
-        image:"",
-        title:"Shorts"
+        image:cl,
+        title:"Shorts",
+        color:"bg-lime-300"
     },
     {
-        image:"",
-        title:"shoes"
+        image:cl,
+        title:"Shoes",
+        color:"bg-amber-300"
     }
 ]
 
@@ -195,3 +204,5 @@ const pants=[
         image:""
     },
 ]
+
+export {clothes, sweatres, pants, tshirts, jackets}

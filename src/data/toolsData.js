@@ -9,22 +9,26 @@ const tools=[
     {
         title:"Clothing",
         color:"bg-pink-300",
-        image:clothing
+        image:clothing,
+        path:"/rbx-tools/clothing"
     },
     {
         title:"Heads",
         color:"bg-red-300",
-        image:head
+        image:head,
+        path:"/rbx-tools/heads"
     },
     {
         title:"Accessories",
         color:"bg-yellow-300",
-        image:clothing
+        image:clothing,
+        path:"/rbx-tools/accessories"
     },
     {
         title:"Animation",
         color:"bg-lime-300",
-        image:head
+        image:head,
+        path:"/rbs-tools/animations"
     }
 ]
 // CHARACTERS
