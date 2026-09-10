@@ -1,5 +1,6 @@
 import clothing from "../assets/clothing.png";
 import head from "../assets/head.png";
+import char from "../assets/char.png";
 
 
 // RBX TOOLS
@@ -28,12 +29,14 @@ const tools=[
 // CHARACTERS
 const charAvatar=[
     {
-        image:"",
-        title:"Avatars"
+        image:char,
+        title:"Avatars",
+        color:"bg-lime-300"
     },
     {
-        image:"",
-        title:"Characters"
+        image:char,
+        title:"Characters",
+        color:"bg-teal-300"
     }
 ]
 // FREE RBX

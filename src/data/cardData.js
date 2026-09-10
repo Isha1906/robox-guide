@@ -11,7 +11,7 @@ const records=[
         title:"CHARACTERS",
         description:"Guide Free Characters & Avatars for RBX",
         color:"bg-red-300",
-        path:""
+        path:"/characters"
     },
     {
         title:"FREE RBX",

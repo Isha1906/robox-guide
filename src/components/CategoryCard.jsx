@@ -17,12 +17,6 @@ function CategoryCard(props) {
             </div>
         </Link>
     );
-    // if (props.title === "RBX TOOLS") {
-    //     return (
-    //         <Link to="rb">{CategoryCard}</Link>
-    //     );
-    // }
-    // return CategoryCard;
 }
 
 export default CategoryCard
