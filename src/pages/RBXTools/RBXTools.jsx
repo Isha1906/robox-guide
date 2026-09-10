@@ -7,7 +7,7 @@ function RBXTools() {
             
                    <AllAds />
 
-            <section className="grid grid-cols-2 gap-8">
+            <section className="grid grid-cols-2 gap-8 items-center">
                 {
                     tools.map((tool) =>
                     (

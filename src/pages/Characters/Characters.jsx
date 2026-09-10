@@ -5,10 +5,10 @@ function Characters() {
         <div className="mx-auto bg-gray-800 min-h-screen w-full px-5 md:max-w-[360px]">
             <header className="text-center font-bold text-3xl">Characters</header>
             <AllAds />
-            <section className="flex flex-col gap-20">
+            <section className="flex flex-col gap-20 items-center">
                 {charAvatar.map((char) => (
                     <div className={`${char.color} relative
-                                font-semibold rounded-[30px] left-5
+                                font-semibold rounded-[30px]
                                 h-25 w-70 text-center p-6 pr-15 
                                 relative z-0`} key={char.title}>
                         <img src={char.image}
