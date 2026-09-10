@@ -2,7 +2,7 @@ import clothing from "../assets/clothing.png";
 import head from "../assets/head.png";
 import char from "../assets/character.png";
 import mainchar from "../assets/mainchar.png";
-
+import arise from "../assets/AriseCrossover.webp";
 
 // RBX TOOLS
 const tools=[
@@ -59,43 +59,53 @@ const freeRBX=[
 const maps=[
     {
         title:"Arise Crossover",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Berry Avenue RP",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Blox Fruits",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Brookhaven RP",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Dandy's World",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Fisch",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Murder Mystery Z",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Pet Simulator 99",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Dead Rails",
-        image:""
+        image:arise,
+        color:"bg-white"
     },
     {
         title:"Rivals",
-        image:""
+        image:arise,
+        color:"bg-white"
     }
 ]
 export { tools, charAvatar, freeRBX, maps}

@@ -1,4 +1,3 @@
-import rbx from "../assets/rbxlogo.png"
 import mainchar from "../assets/mainchar.png"
 const records=[
     {
@@ -26,7 +25,7 @@ const records=[
         title:"MAPS",
         description:"Guide Free Maps & Levels",
         color:"bg-lime-300",
-        path:"",
+        path:"/maps",
         image:mainchar
     }
 ]
