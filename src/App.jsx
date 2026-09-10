@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import RBXTools from "./pages/RBXTools/RBXTools";
 import Characters from "./pages/Characters/Characters";
 import Disclaimer from "./components/Disclaimer";
+import FreeRBX from "./pages/FreeRBX/FreeRBX"
 function App(){
   return(
       <BrowserRouter>
@@ -14,6 +15,7 @@ function App(){
           <Route path="/rbx-tools" element={<RBXTools />} />
           <Route path="/characters" element={<Characters />} />
           <Route path="/disclaimer" element={<Disclaimer /> } />
+          <Route path="/free-rbx" element={<FreeRBX />} />
         </Routes>
       </main>
     </BrowserRouter>

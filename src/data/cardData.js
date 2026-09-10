@@ -19,7 +19,7 @@ const records=[
         title:"FREE RBX",
         description:"Guide for Daily FREE RBX",
         color:"bg-blue-300",
-        path:"",
+        path:"/free-rbx",
         image:mainchar
     },
     {

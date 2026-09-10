@@ -45,12 +45,14 @@ const freeRBX=[
     {
         title:"FREE RBX",
         description:"How to Get RBX Guide",
-        image:""
+        image:mainchar,
+        color:"bg-red-300"
     },
     {
         title:"PREMIUM",
         description:"Tips FREE RBX Premium",
-        image:""
+        image:mainchar,
+        color:"bg-blue-300"
     }
 ]
 // MAPS DATA
