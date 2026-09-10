@@ -4,7 +4,7 @@ import { animation } from "../../data/animationData"
 function Animation() {
     return (
         <div className="pt-6 pb-8 md:max-w-[360px] mx-auto bg-gray-900 min-h-screen w-full px-5 md:max-w-[360px]">
-            <header>ANIMATION</header>
+            <header className="text-center font-bold text-2xl">ANIMATION</header>
             <AllAds />
             {animation.map((anim) =>
             (
