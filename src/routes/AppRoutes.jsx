@@ -17,6 +17,9 @@ import Disclaimer from "../components/Disclaimer";
 
 import ClothingItems from "../components/ClothingItems";
 
+import GetExclusive from "../pages/Guide/GetExclusive";
+import SelectionPage from "../pages/Guide/SelectionPage";
+
 function AppRoutes() {
     return (
         <Routes>
@@ -37,6 +40,11 @@ function AppRoutes() {
             <Route path="/maps" element={<Maps />} />
 
             <Route path="/disclaimer" element={<Disclaimer />} />
+
+            <Route path="/guide" element={<GetExclusive />} />
+
+            <Route path="/guide/:step" element={<SelectionPage />} />
+
         </Routes>
     );
 }
