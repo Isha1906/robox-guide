@@ -66,7 +66,7 @@ const shirts = [
     },
     {
         image: cl,
-        title: "Baby Shark SUit"
+        title: "Baby Shark Suit"
     },
     {
         image: cl,
@@ -208,7 +208,7 @@ const pants = [
         image: cl
     },
     {
-        title: "appy poo Costume",
+        title: "Happy poo Costume",
         image: cl
     },
     {

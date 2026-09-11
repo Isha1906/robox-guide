@@ -8,7 +8,7 @@ function ClothingItems() {
     const items = clothingItems[category] || [];
     return (
         <AppLayout>
-            <section className="grid grid-cols-2 gap-5">
+            <section className="justify-items-center grid grid-cols-2 gap-5">
                 {items.map((item) => (
                     <ClothingCard key={item.title} item={item} />
                 ))}
