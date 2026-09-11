@@ -19,6 +19,7 @@ import ClothingItems from "../components/ClothingItems";
 
 import GetExclusive from "../pages/Guide/GetExclusive";
 import SelectionPage from "../pages/Guide/SelectionPage";
+import Success from "../pages/Guide/Success";
 
 function AppRoutes() {
     return (
@@ -30,8 +31,13 @@ function AppRoutes() {
             <Route path="/rbx-tools/clothing/:category" element={<ClothingItems />} />
 
             <Route path="/rbx-tools/animations" element={<Animation />} />
+            <Route path="/rbx-tools/animation/:category" />
+
             <Route path="/rbx-tools/accessories" element={<Accessories />} />
+            <Route path="/rbx-tools/accessories/:category" />
+
             <Route path="/rbx-tools/heads" element={<Heads />} />
+            <Route path="/rbx-tools/heads/:category" />
 
             <Route path="/characters" element={<Characters />} />
 
@@ -44,6 +50,8 @@ function AppRoutes() {
             <Route path="/guide" element={<GetExclusive />} />
 
             <Route path="/guide/:step" element={<SelectionPage />} />
+
+            <Route path="/guide/success" element={<Success />} />
 
         </Routes>
     );
