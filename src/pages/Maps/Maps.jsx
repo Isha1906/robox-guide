@@ -1,11 +1,12 @@
 import { maps } from "../../data/toolsData";
 import AllAds from "../../components/AllAds";
+import BackButton from "../../components/BackButton";
+import AppLayout from "../../components/AppLayout";
 
 function Maps() {
     return (
-        <div className="mx-auto min-h-screen w-full bg-gray-800 px-5 md:max-w-[360px]">
-
-            <header className="text-center text-3xl font-bold">
+        <AppLayout>
+            <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md mb-10 text-center font-bold text-3xl p-5 text-center font-bold text-3xl">
                 MAPS
             </header>
 
@@ -41,8 +42,7 @@ function Maps() {
                 ))}
 
             </section>
-
-        </div>
+        </AppLayout>
     );
 }
 

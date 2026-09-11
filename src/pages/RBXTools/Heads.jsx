@@ -1,9 +1,11 @@
 import { heads } from "../../data/headsData"
 import AllAds from "../../components/AllAds"
+import BackButton from "../../components/BackButton"
+import AppLayout from "../../components/AppLayout"
 function Heads() {
     return (
-        <div className="pt-6 pb-8 md:max-w-[360px] mx-auto bg-gray-900 min-h-screen w-full px-5 md:max-w-[360px]">
-            <header className="mb-10 text-center font-bold text-3xl">CLOTHING</header>
+        <AppLayout>
+            <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md mb-10 text-center font-bold text-3xl">HEADS</header>
             <AllAds />
             <section className="grid grid-cols-2 items-center gap-5">
                 {heads.map((head) => (
@@ -22,7 +24,9 @@ function Heads() {
                     </div>
                 ))}
             </section>
-        </div>
+        </AppLayout>
+
+
     )
 }
 export default Heads

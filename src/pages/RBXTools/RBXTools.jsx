@@ -1,20 +1,21 @@
 import { tools } from "../../data/toolsData"
 import AllAds from "../../components/AllAds"
 import { Link } from "react-router-dom"
+import BackButton from "../../components/BackButton"
+import AppLayout from "../../components/AppLayout"
 function RBXTools() {
     return (
-        
-            <div className="mx-auto bg-gray-800 min-h-screen w-full px-5 md:max-w-[360px]">
-                <header className="text-center font-bold text-3xl">ROBOX Tools</header>
+        <AppLayout>
+            <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md mb-10 text-center font-bold text-3xl">ROBOX TOOLS</header>
 
-                <AllAds />
+            <AllAds />
 
-                <section className="grid grid-cols-2 gap-8 items-center">
-                    {
-                        tools.map((tool) =>
-                        (
-                            <Link to={tool.path}>
-                                <div className="relative" key={tool.title}>
+            <section className="grid grid-cols-2 gap-8 items-center">
+                {
+                    tools.map((tool) =>
+                    (
+                        <Link to={tool.path}>
+                            <div className="relative" key={tool.title}>
                                 <img src={tool.image} alt={tool.title}
                                     className="absolute z-10 h-40 left-1/2 -translate-x-1/2 -top-6 "></img>
                                 <div
@@ -29,13 +30,15 @@ function RBXTools() {
 
                                 </div>
                             </div>
-                            </Link>
+                        </Link>
 
-                        ))
-                    }
-                </section>
-            </div>
-        
+                    ))
+                }
+            </section>
+        </AppLayout>
+
+
+
     )
 }
 export default RBXTools

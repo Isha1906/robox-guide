@@ -1,10 +1,12 @@
 import AllAds from "../../components/AllAds"
+import BackButton from "../../components/BackButton"
 import { animation } from "../../data/animationData"
 
 function Animation() {
     return (
         <div className="pt-6 pb-8 md:max-w-[360px] mx-auto bg-gray-900 min-h-screen w-full px-5 md:max-w-[360px]">
-            <header className="text-center font-bold text-2xl">ANIMATION</header>
+        <BackButton />
+            <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md mb-10 text-center font-bold text-3xl p-5 text-center font-bold text-2xl">ANIMATION</header>
             <AllAds />
             {animation.map((anim) =>
             (

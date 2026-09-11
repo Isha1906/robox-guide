@@ -1,9 +1,12 @@
 import AllAds from "../../components/AllAds";
+import BackButton from "../../components/BackButton";
 import { charAvatar } from "../../data/toolsData";
+import AppLayout from "../../components/AppLayout";
+
 function Characters() {
     return (
-        <div className="mx-auto bg-gray-800 min-h-screen w-full px-5 md:max-w-[360px]">
-            <header className="text-center font-bold text-3xl">Characters</header>
+        <AppLayout>
+            <header className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md mb-10 text-center font-bold text-3xl p-5 text-center font-bold text-3xl">Characters</header>
             <AllAds />
             <section className="flex flex-col gap-20 items-center">
                 {charAvatar.map((char) => (
@@ -14,15 +17,16 @@ function Characters() {
                         <img src={char.image}
                             alt={char.title}
                             className="absolute bottom-0 z-10 right-6 h-36 object-contain"></img>
-                            <h2 className="absolute left-5 top-1/2 
+                        <h2 className="absolute left-5 top-1/2 
                             -translate-y-1/2 text-lg font-bold text-white">
-                                {char.title}
-                            </h2>
+                            {char.title}
+                        </h2>
                     </div>
 
                 ))}
             </section>
-        </div>
+        </AppLayout>
+
     )
 }
 export default Characters
