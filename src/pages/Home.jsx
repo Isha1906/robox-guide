@@ -1,4 +1,4 @@
-import CategoryCard from "../components/CategoryCard"
+import CategoryCard from "../components/CategoryCard";
 import records from "../data/cardData";
 import AllAds from "../components/AllAds";
 import { Link } from "react-router-dom";

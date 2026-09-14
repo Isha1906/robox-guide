@@ -15,11 +15,14 @@ import Maps from "../pages/Maps/Maps";
 
 import Disclaimer from "../components/Disclaimer";
 
-import ClothingItems from "../components/ClothingItems";
+import ClothingItems from "../components/rbx-components/ClothingItems";
+import HeadItems from "../components/rbx-components/HeadItems";
 
 import GetExclusive from "../pages/Guide/GetExclusive";
 import SelectionPage from "../pages/Guide/SelectionPage";
 import Success from "../pages/Guide/Success";
+import AccessoryItems from "../components/rbx-components/AccessoryItems";
+import AnimationItems from "../components/rbx-components/AnimationItems";
 
 function AppRoutes() {
     return (
@@ -31,13 +34,13 @@ function AppRoutes() {
             <Route path="/rbx-tools/clothing/:category" element={<ClothingItems />} />
 
             <Route path="/rbx-tools/animations" element={<Animation />} />
-            <Route path="/rbx-tools/animation/:category" />
+            <Route path="/rbx-tools/animations/:animation" element={<AnimationItems />} />
 
             <Route path="/rbx-tools/accessories" element={<Accessories />} />
-            <Route path="/rbx-tools/accessories/:category" />
+            <Route path="/rbx-tools/accessories/:accessory" element={<AccessoryItems />}/>
 
             <Route path="/rbx-tools/heads" element={<Heads />} />
-            <Route path="/rbx-tools/heads/:category" />
+            <Route path="/rbx-tools/heads/:head" element={<HeadItems />} />
 
             <Route path="/characters" element={<Characters />} />
 

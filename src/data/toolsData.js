@@ -15,7 +15,7 @@ const tools=[
     {
         title:"Heads",
         color:"bg-red-300",
-        image:head,
+        image:clothing,
         path:"/rbx-tools/heads"
     },
     {
@@ -27,7 +27,7 @@ const tools=[
     {
         title:"Animation",
         color:"bg-lime-300",
-        image:head,
+        image:clothing,
         path:"/rbx-tools/animations"
     }
 ]

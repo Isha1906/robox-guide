@@ -1,7 +1,7 @@
 import { heads } from "../../data/headsData"
 import AllAds from "../../components/AllAds"
-import BackButton from "../../components/BackButton"
 import AppLayout from "../../components/AppLayout"
+import { Link } from "react-router-dom"
 function Heads() {
     return (
         <AppLayout>
@@ -9,7 +9,8 @@ function Heads() {
             <AllAds />
             <section className="grid grid-cols-2 items-center gap-5">
                 {heads.map((head) => (
-                    <div
+                    <Link to={`/rbx-tools/heads/${head.slug}`}>
+                        <div
                         key={head.title}
                         className={`${head.color} relative h-40 
                         w-full rounded-[30px]`}>
@@ -22,6 +23,7 @@ function Heads() {
                             className="absolute bottom-1 left-1/2 h-30
                             -translate-x-1/2 object-contain"/>
                     </div>
+                    </Link>
                 ))}
             </section>
         </AppLayout>

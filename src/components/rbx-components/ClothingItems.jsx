@@ -1,7 +1,7 @@
-import { clothingItems } from "../data/clothingData";
-import ClothingCard from "./ClothingCard";
+import { clothingItems } from "../../data/clothingData";
+import ItemsCard from "../ItemsCard";
 import { useParams } from "react-router-dom";
-import AppLayout from "./AppLayout";
+import AppLayout from "../AppLayout";
 
 function ClothingItems() {
     const { category } = useParams();
@@ -10,7 +10,7 @@ function ClothingItems() {
         <AppLayout>
             <section className="justify-items-center grid grid-cols-2 gap-5">
                 {items.map((item) => (
-                    <ClothingCard key={item.title} item={item} />
+                    <ItemsCard key={item.title} item={item} />
                 ))}
             </section>
         </AppLayout>

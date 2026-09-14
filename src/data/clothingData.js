@@ -244,4 +244,4 @@ const clothingItems = {
     shoes
 }
 
-export { clothes, clothingItems, shirts, sweaters, pants, tshirts, jackets, shorts, dresses, shoes }
+export { clothes, clothingItems }

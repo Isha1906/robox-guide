@@ -1,7 +1,6 @@
 import { tools } from "../../data/toolsData"
 import AllAds from "../../components/AllAds"
 import { Link } from "react-router-dom"
-import BackButton from "../../components/BackButton"
 import AppLayout from "../../components/AppLayout"
 function RBXTools() {
     return (
@@ -10,12 +9,14 @@ function RBXTools() {
 
             <AllAds />
 
-            <section className="grid grid-cols-2 gap-8 items-center">
+            <section 
+            className="grid grid-cols-2 gap-8 items-center">
                 {
                     tools.map((tool) =>
                     (
-                        <Link to={tool.path}>
-                            <div className="relative" key={tool.title}>
+                        <Link to={tool.path}
+                        key={tool.title}>
+                            <div className="relative" >
                                 <img src={tool.image} alt={tool.title}
                                     className="absolute z-10 h-40 left-1/2 -translate-x-1/2 -top-6 "></img>
                                 <div

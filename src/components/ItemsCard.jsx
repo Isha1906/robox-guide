@@ -1,6 +1,6 @@
-import AppLayout from "./AppLayout";
 import { Link } from "react-router-dom";
-function ClothingCard({ item }) {
+
+function ItemsCard({ item }) {
     return (
         <Link to="/guide">
             <div className="h-40 w-40 aspect-square rounded-[16px] bg-white p-3">
@@ -26,4 +26,4 @@ function ClothingCard({ item }) {
     );
 }
 
-export default ClothingCard;
+export default ItemsCard;

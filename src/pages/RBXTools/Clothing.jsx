@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import { clothes } from "../../data/clothingData"
 import AllAds from "../../components/AllAds"
-import BackButton from "../../components/BackButton"
 import AppLayout from "../../components/AppLayout"
 function Clothing() {
     return (

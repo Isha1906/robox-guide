@@ -1,6 +1,5 @@
 import { maps } from "../../data/toolsData";
 import AllAds from "../../components/AllAds";
-import BackButton from "../../components/BackButton";
 import AppLayout from "../../components/AppLayout";
 
 function Maps() {
