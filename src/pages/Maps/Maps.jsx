@@ -1,6 +1,7 @@
 import { maps } from "../../data/toolsData";
 import AllAds from "../../components/AllAds";
 import AppLayout from "../../components/AppLayout";
+import { Link } from "react-router-dom";
 
 function Maps() {
     return (
@@ -30,10 +31,12 @@ function Maps() {
                             <h2 className="text-base font-bold text-black">
                                 {item.title}
                             </h2>
+                            <Link to={`/guide`}>
+                                <div className="flex h-7 w-13 items-center justify-center rounded-full bg-black text-sm text-white">
+                                    open
+                                </div>
+                            </Link>
 
-                            <div className="flex h-7 w-13 items-center justify-center rounded-full bg-black text-sm text-white">
-                                open
-                            </div>
 
                         </div>
 

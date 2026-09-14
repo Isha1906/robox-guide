@@ -100,9 +100,11 @@ const shirts = [
 
 // T-shirts
 const tshirts = [
-    {
-
-    }
+    { title: "Adidas Classic Blue Blaxy Shoes", image: cl },
+    { title: "Adidas Black Campus 00S Shoes", image: cl },
+    { title: "Dress Shoes - Black", image: cl },
+    { title: "Adidas White Samba OG Shoes", image: cl },
+    { title: "Grass Shoes - George Era", image: cl }
 ]
 
 // Sweaters
@@ -221,15 +223,38 @@ const pants = [
     },
 ]
 const shorts = [
-
+    { title: "Denim Ripped Shorts - Black", image: cl },
+    { title: "Black Dolphin Shorts", image: cl },
+    { title: "Farmer's Jumpsuit Shorts - Denim", image: cl },
+    { title: "Frog Overalls", image: cl },
+    { title: "Jean Shorts - Light Wash", image: cl },
+    { title: "Punk Spike Belts", image: cl },
+    { title: "Stars & Hearts Charms Hat Pink", image: cl },
+    { title: "Tactical Techwear Dual Bags", image: cl }
 ]
 
 const dresses = [
-
+    { title: "Adorable Pink Princess Gown", image: cl },
+    { title: "Adorable White Princess Gown", image: cl },
+    { title: "Ancient Little Wizard Dress", image: cl },
+    { title: "Black Anime School Dress I", image: cl },
+    { title: "Black Fancy Gown with Golden Clips", image: cl },
+    { title: "Dainty Cottage Lace Dress White", image: cl },
+    { title: "Pink Anime School Dress I", image: cl },
+    { title: "Maid Dress - Black", image: cl }
 ]
 
 const shoes = [
-
+    { title: "Adidas Classic Blue Blaxy Shoes", image: cl },
+    { title: "Adidas Black Campus 00S Shoes", image: cl },
+    { title: "Dress Shoes - Black", image: cl },
+    { title: "Adidas White Samba OG Shoes", image: cl },
+    { title: "Grass Shoes - George Era", image: cl },
+    { title: "Military Boots - Black", image: cl },
+    { title: "Roblox Sneakers - Pink", image: cl },
+    { title: "Roblox Running Shoes - Red", image: cl },
+    { title: "Work Boots - Black", image: cl },
+    { title: "Work Boots - Brown", image: cl }
 ]
 
 const clothingItems = {

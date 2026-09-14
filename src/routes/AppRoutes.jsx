@@ -23,6 +23,11 @@ import SelectionPage from "../pages/Guide/SelectionPage";
 import Success from "../pages/Guide/Success";
 import AccessoryItems from "../components/rbx-components/AccessoryItems";
 import AnimationItems from "../components/rbx-components/AnimationItems";
+import CharacterItems from "../components/char-components/CharacterItems";
+
+import FreeRBXPackages from "../components/freerbx-components/FreeRBXPackages";
+import FreeRBXPremium from "../components/freerbx-components/FreeRBXPremium";
+
 
 function AppRoutes() {
     return (
@@ -43,9 +48,12 @@ function AppRoutes() {
             <Route path="/rbx-tools/heads/:head" element={<HeadItems />} />
 
             <Route path="/characters" element={<Characters />} />
+            <Route path="/characters/:character" element={<CharacterItems />} />
 
             <Route path="/free-rbx" element={<FreeRBX />} />
-
+            <Route path="/free-rbx/free-rbx" element={<FreeRBXPackages />}/>
+            <Route path="/free-rbx/premium" element={<FreeRBXPremium />} />
+            
             <Route path="/maps" element={<Maps />} />
 
             <Route path="/disclaimer" element={<Disclaimer />} />

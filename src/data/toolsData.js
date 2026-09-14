@@ -36,12 +36,14 @@ const charAvatar=[
     {
         image:char,
         title:"Avatars",
-        color:"bg-lime-300"
+        color:"bg-lime-300",
+        slug:"avatars"
     },
     {
         image:mainchar,
         title:"Characters",
-        color:"bg-teal-300"
+        color:"bg-teal-300",
+        slug:"chars"
     }
 ]
 // FREE RBX
@@ -50,13 +52,15 @@ const freeRBX=[
         title:"FREE RBX",
         description:"How to Get RBX Guide",
         image:mainchar,
-        color:"bg-red-300"
+        color:"bg-red-300",
+        slug:"free-rbx"
     },
     {
         title:"PREMIUM",
         description:"Tips FREE RBX Premium",
         image:mainchar,
-        color:"bg-blue-300"
+        color:"bg-blue-300",
+        slug:"premium"
     }
 ]
 // MAPS DATA
