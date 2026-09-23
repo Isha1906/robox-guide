@@ -1,4 +1,4 @@
-import c1 from "../assets/cl.png"
+import c1 from "../assets/clothing/cl.webp"
 
 const freeRbxPackages = [
     {

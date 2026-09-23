@@ -10,8 +10,8 @@ function CategoryCard(props) {
                     </h2>
                 </div>
                 <img src={props.image}
-                    className="absolute z-10 h-35 left-[70%] -translate-x-[10%] bottom-0 "></img>
-                <p className="flex h-full items-center px-8 font-semibold md:text-xl sm:text-2xl w-55">
+                    className="absolute w-22 z-10 h-28 left-[70%] -translate-x-[10%] bottom-1 "></img>
+                <p className="flex h-full items-center px-8 font-semibold md:text-lg sm:text-2xl w-55">
                     {props.description}
                 </p>
             </div>

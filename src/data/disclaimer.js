@@ -50,7 +50,7 @@ const disclaimer = [
 {
     title:"Contact Us",
     content:"If you have questions about this website, its content, or any material displayed on the platform, you can contact us at:",
-    email:"demo@myfuturecode.com"
+    email:"info@myfuturecode.com"
 }
 
 ];

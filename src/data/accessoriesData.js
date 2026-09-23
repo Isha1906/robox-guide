@@ -1,92 +1,159 @@
-import cl from "../assets/cl.png"
+import a1 from "../assets/accessories/head.webp"
+import a2 from "../assets/accessories/face.webp"
+import a3 from "../assets/accessories/neck.webp"
+import a4 from "../assets/accessories/shoulder.webp"
+import a5 from "../assets/accessories/waist.webp"
+import a6 from "../assets/accessories/gear.webp"
+
+
+// heads
+import h1 from "../assets/accessories/heads/elf.webp";
+import h2 from "../assets/accessories/heads/earmuff.webp";
+import h3 from "../assets/accessories/heads/kitty.webp";
+import h4 from "../assets/accessories/heads/holiday.webp";
+import h5 from "../assets/accessories/heads/kittyears.webp";
+import h6 from "../assets/accessories/heads/fun.webp";
+import h7 from "../assets/accessories/heads/white.webp";
+import h8 from "../assets/accessories/heads/violet.webp";
+
+//faces
+import f1 from "../assets/accessories/faces/bandit.webp";
+import f2 from "../assets/accessories/faces/black.webp";
+import f3 from "../assets/accessories/faces/clout.webp";
+import f4 from "../assets/accessories/faces/deal.webp";
+import f5 from "../assets/accessories/faces/cute.webp";
+import f6 from "../assets/accessories/faces/blush.webp";
+import f7 from "../assets/accessories/faces/mask.webp";
+import f8 from "../assets/accessories/faces/nerd.webp";
+import f9 from "../assets/accessories/faces/psycho.webp";
+import f10 from "../assets/accessories/faces/red.webp";
+
+// Necks
+import n1 from "../assets/accessories/necks/hoodie.webp";
+import n2 from "../assets/accessories/necks/goth.webp";
+import n3 from "../assets/accessories/necks/moon.webp";
+import n4 from "../assets/accessories/necks/cam.webp";
+import n5 from "../assets/accessories/necks/goldandwhite.webp";
+import n6 from "../assets/accessories/necks/pearls.webp";
+import n7 from "../assets/accessories/necks/punk.webp";
+import n8 from "../assets/accessories/necks/silver.webp";
+import n9 from "../assets/accessories/necks/link.webp";
+import n10 from "../assets/accessories/necks/star.webp";
+
+// Shoulders
+import s1 from "../assets/accessories/shoulder/brownbear.webp";
+import s2 from "../assets/accessories/shoulder/darkshoulderwingset.webp";
+import s3 from "../assets/accessories/shoulder/goldrow.webp";
+import s4 from "../assets/accessories/shoulder/headrow.webp";
+import s5 from "../assets/accessories/shoulder/neonflameaura.webp";
+import s6 from "../assets/accessories/shoulder/overseeroverseeperterribleteddy.webp";
+import s7 from "../assets/accessories/shoulder/rainbowcursedchains.webp";
+import s8 from "../assets/accessories/shoulder/rainbowflameaura.webp";
+import s9 from "../assets/accessories/shoulder/springfairy.webp";
+
+// Waists
+import w1 from "../assets/accessories/waist/80shangingsuspender.webp";
+import w2 from "../assets/accessories/waist/blackpleatedskirt.webp";
+import w3 from "../assets/accessories/waist/bunnytail.webp";
+import w4 from "../assets/accessories/waist/greycattail.webp";
+import w5 from "../assets/accessories/waist/partyunicornfloatie.webp";
+import w6 from "../assets/accessories/waist/realisticcappybaramount.webp";
+import w7 from "../assets/accessories/waist/sakuraaura.webp";
+import w8 from "../assets/accessories/waist/wheelchair.webp";
+import w9 from "../assets/accessories/waist/whitechibiskirttutu.webp";
+import w10 from "../assets/accessories/waist/wolftail.webp";
+
+// Gears
+import g1 from "../assets/accessories/gear/bombosurvivalknife.webp";
+import g2 from "../assets/accessories/gear/fromthevaultdozensofdinosaurs.webp";
+import g3 from "../assets/accessories/gear/gravitycoil.webp";
+import g4 from "../assets/accessories/gear/ice dragon slayer.webp";
+import g5 from "../assets/accessories/gear/korbloxmagestaff.webp";
+import g6 from "../assets/accessories/gear/redhyperlasergun.webp";
+import g7 from "../assets/accessories/gear/prettyprincessscepter.webp";
+import g8 from "../assets/accessories/gear/rainowperiastronomega.webp";
+import g9 from "../assets/accessories/gear/silverninjastar.webp";
+
+// src\assets\accessories\gear\rainowperiastronomega.webp
+
 const accessories=[
     {
         title:"Head",
-        image:cl,
+        image:a1,
         color:"bg-purple-500",
         slug:"heads"
     },
     {
         title:"Face",
-        image:cl,
-        color:"bg-pink-300",
+        image:a2,
+        color:"bg-pink-500",
         slug:"faces"
     },
     {
         title:"Neck",
-        image:cl,
-        color:"bg-lime-300",
+        image:a3,
+        color:"bg-lime-500",
         slug:"necks"
     },
     {
         title:"Shoulder",
-        image:cl,
-        color:"bg-teal-300",
+        image:a4,
+        color:"bg-teal-500",
         slug:"shoulders"
     },
     {
         title:"Waist",
-        image:cl,
-        color:"bg-yellow-300",
+        image:a5,
+        color:"bg-yellow-500",
         slug:"waists"
     },
     {
         title:"Gear",
-        image:cl,
-        color:"bg-red-300",
+        image:a6,
+        color:"bg-red-500",
         slug:"gears"
     }
 ]
 
 const heads = [
     {
-        title: "Butterfly Hat",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "Chill Guy",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
         title: "Elf Ears w White Piercings",
-        image: "",
+        image: h1,
         color: "bg-orange-50"
     },
     {
         title: "Fluffy Earmuffs in White",
-        image: "",
+        image: h2,
         color: "bg-orange-50"
     },
     {
         title: "Gaming Kitty Headphones",
-        image: "",
+        image: h3,
         color: "bg-orange-50"
     },
     {
         title: "Holiday Crown",
-        image: "",
+        image: h4,
         color: "bg-orange-50"
     },
     {
         title: "Kitty Ears",
-        image: "",
+        image: h5,
         color: "bg-orange-50"
     },
     {
         title: "Rainbow Fun Fedora",
-        image: "",
+        image: h6,
         color: "bg-orange-50"
     },
     {
         title: "Spiked White Rose Crown",
-        image: "",
+        image: h7,
         color: "bg-orange-50"
     },
     {
         title: "Violet Valkyrie",
-        image: "",
+        image: h8,
         color: "bg-orange-50"
     }
 ]
@@ -94,62 +161,52 @@ const heads = [
 const faces = [
     {
         title: "Bandit",
-        image: "",
+        image: f1,
         color: "bg-orange-50"
     },
     {
         title: "Black XYZ Cyberstar Glasses",
-        image: "",
+        image: f2,
         color: "bg-orange-50"
     },
     {
         title: "Clout Goggles",
-        image: "",
+        image: f3,
         color: "bg-orange-50"
     },
     {
         title: "Deal With It",
-        image: "",
+        image: f4,
         color: "bg-orange-50"
     },
     {
         title: "Emotimask Cute",
-        image: "",
+        image: f5,
         color: "bg-orange-50"
     },
     {
         title: "Joy Blush Mask",
-        image: "",
+        image: f6,
         color: "bg-orange-50"
     },
     {
         title: "Medical Mask",
-        image: "",
+        image: f7,
         color: "bg-orange-50"
     },
     {
         title: "Nerd Glasses",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "Protective Mask",
-        image: "",
+        image: f8,
         color: "bg-orange-50"
     },
     {
         title: "Psycho Mask",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "Reading Glasses",
-        image: "",
+        image: f9,
         color: "bg-orange-50"
     },
     {
         title: "Red Eye Glare",
-        image: "",
+        image: f10,
         color: "bg-orange-50"
     }
 ]
@@ -157,62 +214,52 @@ const faces = [
 const necks = [
     {
         title: "Black Hoodie",
-        image: "",
+        image: n1,
         color: "bg-orange-50"
     },
     {
         title: "Black Spiky Goth Necklace",
-        image: "",
+        image: n2,
         color: "bg-orange-50"
     },
     {
         title: "Crescent Moon Necklace",
-        image: "",
+        image: n3,
         color: "bg-orange-50"
     },
     {
         title: "Instant Camera",
-        image: "",
+        image: n4,
         color: "bg-orange-50"
     },
     {
         title: "Necklace Gold and White",
-        image: "",
+        image: n5,
         color: "bg-orange-50"
     },
     {
         title: "Pearls",
-        image: "",
+        image: n6,
         color: "bg-orange-50"
     },
     {
         title: "Punk Necklace 3.0",
-        image: "",
+        image: n7,
         color: "bg-orange-50"
     },
     {
         title: "Silver Cross Necklace 3.0",
-        image: "",
+        image: n8,
         color: "bg-orange-50"
     },
     {
         title: "Silver Link Chain",
-        image: "",
+        image: n9,
         color: "bg-orange-50"
     },
     {
         title: "Stars & Moon Charm Necklace",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "YZK Heart Necklace",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "YZK Star Necklace [3.0]",
-        image: "",
+        image: n10,
         color: "bg-orange-50"
     }
 ]
@@ -220,52 +267,47 @@ const necks = [
 const shoulders = [
     {
         title: "Brown Bear",
-        image: "",
+        image: s1,
         color: "bg-orange-50"
     },
     {
         title: "Dark Shoulder Wing Set",
-        image: "",
+        image: s2,
         color: "bg-orange-50"
     },
     {
         title: "Goldrow",
-        image: "",
+        image: s3,
         color: "bg-orange-50"
     },
     {
         title: "Headrow",
-        image: "",
+        image: s4,
         color: "bg-orange-50"
     },
     {
         title: "Neon Flame Aura - Top",
-        image: "",
+        image: s5,
         color: "bg-orange-50"
     },
     {
         title: "Overseer Overseeper Terrible Teddy",
-        image: "",
+        image: s6,
         color: "bg-orange-50"
     },
     {
         title: "Rainbow Cursed Chains",
-        image: "",
+        image: s7,
         color: "bg-orange-50"
     },
     {
         title: "Rainbow Flame Aura - Top",
-        image: "",
+        image: s8,
         color: "bg-orange-50"
     },
     {
         title: "Spring Fairy",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "Swirl of Butterflies (Top)",
-        image: "",
+        image: s9,
         color: "bg-orange-50"
     }
 ]
@@ -273,52 +315,52 @@ const shoulders = [
 const waists = [
     {
         title: "80s Hanging Suspenders",
-        image: "",
+        image: w1,
         color: "bg-orange-50"
     },
     {
         title: "Black Pleated Skirt",
-        image: "",
+        image: w2,
         color: "bg-orange-50"
     },
     {
         title: "Bunny Tail",
-        image: "",
+        image: w3,
         color: "bg-orange-50"
     },
     {
         title: "Grey Cat Tail",
-        image: "",
+        image: w4,
         color: "bg-orange-50"
     },
     {
         title: "Party Unicorn Floatie",
-        image: "",
+        image: w5,
         color: "bg-orange-50"
     },
     {
         title: "Realistic Capybara Mount",
-        image: "",
+        image: w6,
         color: "bg-orange-50"
     },
     {
         title: "Sakura Aura",
-        image: "",
+        image: w7,
         color: "bg-orange-50"
     },
     {
         title: "Wheelchair",
-        image: "",
+        image: w8,
         color: "bg-orange-50"
     },
     {
-        title: "White Bow Tutu Skirt",
-        image: "",
+        title: "White Chibi Skirt Tutu",
+        image: w9,
         color: "bg-orange-50"
     },
     {
         title: "Wolf Tail",
-        image: "",
+        image: w10,
         color: "bg-orange-50"
     }
 ]
@@ -326,52 +368,47 @@ const waists = [
 const gears = [
     {
         title: "Bomb's Survival Knife",
-        image: "",
+        image: g1,
         color: "bg-orange-50"
     },
     {
         title: "From the Vault Dozens of Dinosaurs",
-        image: "",
+        image: g2,
         color: "bg-orange-50"
     },
     {
         title: "Gravity Coil",
-        image: "",
+        image: g3,
         color: "bg-orange-50"
     },
     {
         title: "Ice Dragon Slayer",
-        image: "",
+        image: g4,
         color: "bg-orange-50"
     },
     {
         title: "Korblox Mage Staff",
-        image: "",
+        image: g5,
         color: "bg-orange-50"
     },
     {
         title: "Red Hyperlaser Gun",
-        image: "",
+        image: g6,
         color: "bg-orange-50"
     },
     {
         title: "Pretty Princess Scepter",
-        image: "",
+        image: g7,
         color: "bg-orange-50"
     },
     {
         title: "Rainbow Periastron Omega",
-        image: "",
+        image: g8,
         color: "bg-orange-50"
     },
     {
         title: "Silver Ninja Star",
-        image: "",
-        color: "bg-orange-50"
-    },
-    {
-        title: "Starblox Latte",
-        image: "",
+        image: g9,
         color: "bg-orange-50"
     }
 ]
@@ -383,5 +420,5 @@ const accessoryItems = {
     shoulders: shoulders,
     waists: waists,
     gears: gears
-};
+}
 export { accessories, accessoryItems }

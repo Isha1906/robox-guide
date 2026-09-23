@@ -20,7 +20,7 @@ function Clothing() {
                         </header>
 
                         <img src={clothe.image} alt={clothe.title}
-                            className="absolute bottom-0 left-1/2 h-32 
+                            className="absolute bottom-0 left-1/2 h-28 
                             -translate-x-1/2 object-contain"/>
                     </Link>
                 ))}

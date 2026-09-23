@@ -1,138 +1,135 @@
-import cl from "../assets/cl.png"
+// Avatars
+import a1 from "../assets/characters/avatar/a1.webp";
+import a2 from "../assets/characters/avatar/a2.webp";
+import a3 from "../assets/characters/avatar/a3.webp";
+import a4 from "../assets/characters/avatar/a4.webp";
+import a5 from "../assets/characters/avatar/a5.webp";
+import a6 from "../assets/characters/avatar/a6.webp";
+import a7 from "../assets/characters/avatar/a7.webp";
+import a8 from "../assets/characters/avatar/a8.webp";
+import a9 from "../assets/characters/avatar/a9.webp";
+import a10 from "../assets/characters/avatar/a10.webp";
+import a11 from "../assets/characters/avatar/a11.webp";
+import a12 from "../assets/characters/avatar/a12.webp";
+import a13 from "../assets/characters/avatar/a13.webp";
+
+// characters
+import c1 from "../assets/characters/character/c1.webp";
+import c2 from "../assets/characters/character/c2.webp";
+import c3 from "../assets/characters/character/c3.webp";
+import c4 from "../assets/characters/character/c4.webp";
+import c5 from "../assets/characters/character/c5.webp";
+import c6 from "../assets/characters/character/c6.webp";
+import c7 from "../assets/characters/character/c7.webp";
+import c8 from "../assets/characters/character/c8.webp";
+import c9 from "../assets/characters/character/c9.webp";
+import c10 from "../assets/characters/character/c10.webp";
+import c11 from "../assets/characters/character/c11.webp";
+import c12 from "../assets/characters/character/c12.webp";
+
 const avatars = [
     {
         title: "Catnap",
-        image: cl
-
+        image: a1
     },
     {
-        title: "Curated Avatar 8",
-        image: cl
-
+        title: "Black Red Emo Demon Avatar",
+        image: a2
     },
     {
-        title: "Curated Avatar",
-        image: cl
+        title: "Fluffy Monster Avatar",
+        image: a3
     },
     {
-        title: "Curated Avatar 5",
-        image: cl
+        title: "Abyss Walker Avatar",
+        image: a4
     },
     {
-        title: "Curated Avatar 6",
-        image: cl
+        title: "Rainbow Outline Full Avatar",
+        image: a5
     },
     {
-        title: "Curated Avatar 7",
-        image: cl
+        title: "Aesthetic Boy Streetwear Avatar",
+        image: a6
     },
     {
-        title: "Curated Avatar 9",
-        image: cl
+        title: "Orange Grunge Boy Avatar",
+        image: a7
     },
     {
-        title: "Curated Avatar 10",
-        image: cl
+        title: "Brown Underground Avatar",
+        image: a8
     },
     {
-        title: "CuratedAvatar",
-        image: cl
+        title: "Void Gradient Avatar",
+        image: a9
     },
     {
-        title: "Curated3Avatar",
-        image: cl
+        title: "Ninja Avatar",
+        image: a10
     },
     {
-        title: "Emo cross kitty cool",
-        image: cl
+        title: "Cybernetic Killer Robot Avatar",
+        image: a11
     },
     {
-        title: "king bacon",
-        image: cl
+        title: "Red Streetwear Boy Avatar",
+        image: a12
     },
     {
-        title: "Moe Moe ukei",
-        image: cl
-    },
-    {
-        title: "Reindeer",
-        image: cl
-    },
-    {
-        title: "Riders sonic with silver",
-        image: cl
-    },
-    {
-        title: "Wow",
-        image: cl
+        title: "Drip Streetwear Outfit Avatar",
+        image: a13
     }
 ]
 
 const characters = [
     {
         title: "Amory the Undead Necromancer",
-        image: cl
+        image: c1
     },
     {
         title: "Blazeburner",
-        image: cl
+        image: c2
     },
     {
         title: "Bubba Doll",
-        image: cl
+        image: c3
     },
     {
         title: "Davy Bazooka",
-        image: cl
+        image: c4
     },
     {
         title: "Frost Guard General",
-        image: cl
+        image: c5
     },
     {
         title: "Jester Equinox",
-        image: cl
+        image: c6
     },
     {
         title: "Korblox Deathspeaker",
-        image: cl
+        image: c7
     },
     {
         title: "Magma Fiend",
-        image: cl
+        image: c8
     },
     {
         title: "Mr. Toilet",
-        image: cl
+        image: c9
     },
     {
         title: "Noah",
-        image: cl
+        image: c10
     },
     {
         title: "Skeleton",
-        image: cl
+        image: c11
     },
     {
         title: "Superhero",
-        image: cl
-    },
-    {
-        title: "The Gnomsky Brothers",
-        image: cl
-    },
-    {
-        title: "Udzal",
-        image: cl
-    },
-    {
-        title: "Vacation Rex",
-        image: cl
-    },
-    {
-        title: "Zombie",
-        image: cl
+        image: c12
     }
 ]
-
 export { avatars, characters }

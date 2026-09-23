@@ -9,7 +9,7 @@ function GetExclusive() {
                 GET EXCLUSIVE ITEMS
             </header>
             <AllAds />
-            <section className="mt-10 rounded-2xl bg-gray-800 p-6 text-center shadow-[0_0_25px_rgba(234,179,8,0.35)]">
+            <section className="mt-10 rounded-2xl bg-gray-800 p-6 text-center shadow-blue-300">
                 <h1 className="text-2xl font-bold text-white">
                     Claim Your Exclusive Item
                 </h1>
@@ -18,8 +18,9 @@ function GetExclusive() {
                 </p>
                 <div >
                     <Link to="/guide/level"
-                    className="flex rounded-[5px] h-9 mt-6 font-bold text-white 
-                transition-shadow duration-200 hover:shadow-lg shadow-yellow-700 justify-center">
+                    className="flex rounded-[5px] h-9 mt-6 p-1 font-bold text-black bg-white
+                transition-shadow duration-200 hover:shadow-lg shadow-blue-300 justify-center
+                text-lg">
                         Get it for FREE
                     </Link>
                 </div>

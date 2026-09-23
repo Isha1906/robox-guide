@@ -10,9 +10,9 @@ function ItemsCard({ item }) {
                     <img
                         src={item.image}
                         alt={item.title}
-                        className="h-16 w-full object-contain mt-2"/>
+                        className="h-22 w-full object-contain mt-1"/>
 
-                    <h2 className="m-3 text-center text-[11px] font-bold text-black">
+                    <h2 className="m-2 text-center text-[11px] font-bold text-black">
                         {item.title}
                     </h2>
 

@@ -18,14 +18,14 @@ function RBXTools() {
                         key={tool.title}>
                             <div className="relative" >
                                 <img src={tool.image} alt={tool.title}
-                                    className="absolute z-10 h-40 left-1/2 -translate-x-1/2 -top-6 "></img>
+                                    className="absolute z-10 h-35 left-1/2 -translate-x-1/2"></img>
                                 <div
 
                                     className={`${tool.color} 
                                 font-semibold rounded-[30px] 
                                 h-45 text-center p-6 pr-12 
                                 relative z-0`}>
-                                    <h2 className="absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-xl font-bold text-white">
+                                    <h2 className="absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-2xl font-bold text-white">
                                         {tool.title}
                                     </h2>
 

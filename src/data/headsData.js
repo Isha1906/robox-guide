@@ -1,194 +1,191 @@
-import h from "../assets/head.png"
-import char from "../assets/char.png"
+import g from "../assets/headItems/gojo.webp"
+import he from "../assets/headItems/heads.webp"
+import f from "../assets/headItems/face.webp"
+
+// Hairs
+import h1 from "../assets/headItems/hairs/pigtail.webp"
+import h2 from "../assets/headItems/hairs/pigtail.webp"
+import h3 from "../assets/headItems/hairs/messy.webp"
+import h4 from "../assets/headItems/hairs/brb.webp"
+import h5 from "../assets/headItems/hairs/flowy.webp"
+import h6 from "../assets/headItems/hairs/wrb.webp"
+import h7 from "../assets/headItems/hairs/shiny.webp"
+import h8 from "../assets/headItems/hairs/cool.webp"
+import h9 from "../assets/headItems/hairs/crimson.webp"
+
+// Heads
+import p1 from "../assets/headItems/heads/vampire.webp"
+import p2 from "../assets/headItems/heads/blush.webp"
+import p3 from "../assets/headItems/heads/demonic.webp"
+import p4 from "../assets/headItems/heads/bored.webp"
+import p5 from "../assets/headItems/heads/silly.webp"
+import p6 from "../assets/headItems/heads/siren.webp"
+import p7 from "../assets/headItems/heads/droop.webp"
+import p8 from "../assets/headItems/heads/sqiggle.webp"
+import p9 from "../assets/headItems/heads/stunned.webp"
+import p10 from "../assets/headItems/heads/wuh.webp"
+
+// Faces
+import f1 from "../assets/headItems/faces/sukuna.webp"
+import f2 from "../assets/headItems/faces/blue.webp"
+import f3 from "../assets/headItems/faces/vampire.webp"
+import f4 from "../assets/headItems/faces/heart.webp"
+import f5 from "../assets/headItems/faces/meanie.webp"
+import f6 from "../assets/headItems/faces/mr.webp"
+import f7 from "../assets/headItems/faces/play.webp"
+import f8 from "../assets/headItems/faces/roblox.webp"
+import f9 from "../assets/headItems/faces/sick.webp"
+import f10 from "../assets/headItems/faces/happy.webp"
 
 const heads=[
     {
         title:"Hairs",
-        image:h,
-        color:"bg-lime-300",
+        image:g,
+        color:"bg-lime-500",
         slug:"hairs"
     },
     {
         title:"Heads",
-        image:h,
-        color:"bg-teal-300",
+        image:he,
+        color:"bg-teal-500",
         slug:"heads"
     },
     {
         title:"Faces",
-        image:h,
-        color:"bg-amber-300",
+        image:f,
+        color:"bg-amber-500",
         slug:"faces"
     }
 ]
 
 const hairs = [
     {
-        image: char,
-        title: "Aesthetic Low Pigtails in Blonde",
-        color: "bg-orange-50"
+        image: h1,
+        title: "Aesthetic Low Pigtails in Blonde"
     },
     {
-        image: char,
-        title: "Beautiful Hair for Beautiful People",
-        color: "bg-orange-50"
+        image: h2,
+        title: "Beautiful Hair for Beautiful People"
     },
     {
-        image: char,
-        title: "Black Mesuy Hairstyle",
-        color: "bg-orange-50"
+        image: h3
+        ,
+        title: "Black Messy Bun Hairstyle"
     },
     {
-        image: char,
-        title: "Black Royal Braid",
-        color: "bg-orange-50"
+        image: h4,
+        title: "Black Royal Braid"
     },
     {
-        image: char,
-        title: "Blonde Flowy Pigtails",
-        color: "bg-orange-50"
+        image: h5,
+        title: "Blonde Flowy Pigtails"
     },
     {
-        image: char,
-        title: "Blonde Royal Braid",
-        color: "bg-orange-50"
+        image: h6,
+        title: "Blonde Royal Braid"
     },
     {
-        image: char,
-        title: "Clean Shiny Spikes",
-        color: "bg-orange-50"
+        image: h7,
+        title: "Clean Shiny Spikes"
+    
     },
     {
-        image: char,
-        title: "Cool Boy Hair",
-        color: "bg-orange-50"
+        image: h8,
+        title: "Cool Boy Hair"
+        
     },
     {
-       image: char,
-        title: "Crimson Shaggy 2.0",
-        color: "bg-orange-50"
+       image: h9,
+        title: "Crimson Shaggy 2.0"
+        
     },
-    {
-        image: char,
-        title: "Popular Girl Blonde & Brown Hair",
-        color: "bg-orange-50"
-    }
 ]
 
 const head=[
     {
-        image: char,
-        title: "Animated Chibi Vampire Face",
-        color: "bg-orange-50"
+        image: p1,
+        title: "Animated Chibi Vampire Face"
     },
     {
-        image: char,
-        title: "Animated Cute Blush Face",
-        color: "bg-orange-50"
+        image: p2,
+        title: "Animated Cute Blush Face"
     },
     {
-        image: char,
-        title: "Demonic Creature Evolution",
-        color: "bg-orange-50"
+        image: p3,
+        title: "Demonic Creature Evolution"
     },
     {
-       image: char,
-        title: "Miss Bored 2.0",
-        color: "bg-orange-50"
+       image: p4,
+        title: "Miss Bored 2.0"
     },
     {
-        image: char,
-        title: "Silly Smile",
-        color: "bg-orange-50"
+        image: p5,
+        title: "Silly Smile"
     },
     {
-        image: char,
-        title: "Siren Eye Chibi Girl",
-        color: "bg-orange-50"
+        image: p6,
+        title: "Siren Eye Chibi Girl"
     },
     {
-        image: char,
-        title: "Animated Droop Ears",
-        color: "bg-orange-50"
+        image: p7,
+        title: "Animated Droop Ears"
     },
     {
-       image: char,
-        title: "Squiggle Mouth",
-        color: "bg-orange-50"
+       image: p8,
+        title: "Squiggle Mouth"
     },
     {
-        image: char,
-        title: "Stunned Dazed Scene Face",
-        color: "bg-orange-50"
+        image: p9,
+        title: "Stunned Dazed Scene Face"
     },
     {
-        image: char,
-        title: "WUH Cat",
-        color: "bg-orange-50"
+        image: p10,
+        title: "WUH Cat"
     }
 ]
 
 const faces=
 [
     {
-        image: char,
-        title: "3",
-        color: "bg-orange-50"
+        image: f1,
+        title: "Face Tattoo"
     },
     {
-        image: char,
-        title: "Blue Wistful Wink",
-        color: "bg-orange-50"
+        image: f2,
+        title: "Blue Wistful Wink"
+        
     },
     {
-        image: char,
-        title: "Classic Vampire",
-        color: "bg-orange-50"
+        image: f3,
+        title: "Classic Vampire"
     },
     {
-        image: char,
-        title: "Heart Gaze-Zara Larsson",
-        color: "bg-orange-50"
+        image: f4,
+        title: "Heart Gaze-Zara Larsson"
     },
     {
-        image: char,
-        title: "Meanie",
-        color: "bg-orange-50"
+        image: f5,
+        title: "Meanie"
     },
     {
-        image: char,
-        title: "Mr. Chuckles",
-        color: "bg-orange-50"
+        image: f6,
+        title: "Mr. Chuckles"
     },
     {
-        image: char,
-        title: "Playful Vampire",
-        color: "bg-orange-50"
+        image: f7,
+        title: "Playful Vampire"
     },
     {
-        image: char,
-        title: "ROBLOX Madness Face",
-        color: "bg-orange-50"
+        image: f8,
+        title: "ROBLOX Madness Face"
     },
     {
-        image: char,
-        title: "Sick Day",
-        color: "bg-orange-50"
+        image: f9,
+        title: "Sick Day"
     },
     {
-        image: char,
-        title: "Super Super Happy Face",
-        color: "bg-orange-50"
-    },
-    {
-       image: char,
-        title: "Tango",
-        color: "bg-orange-50"
-    },
-    {
-        image: char,
-        title: "Warface Josh Dun",
-        color: "bg-orange-50"
+        image: f10,
+        title: "Super Super Happy Face"
     }
 ]
 
